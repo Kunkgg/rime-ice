@@ -1,0 +1,12 @@
+patch:
+  # 1. 方案列表：只保留小鹤双拼
+  schema_list:
+    - schema: double_pinyin_flypy
+
+  # 2. 候选词数量：设置为 9 个
+  menu/page_size: 9
+
+  # 3. 方案切换快捷键：移除 Control+`，只保留 F4，彻底释放给 VS Code
+  switcher/hotkeys:
+    - F4
+

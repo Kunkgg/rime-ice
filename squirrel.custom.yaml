@@ -1,0 +1,9 @@
+patch:
+  # 1. 设置全局默认外观为横向排列 (最新语法)
+  style/candidate_list_layout: linear
+  
+  # 2. 强行穿透雾凇拼音自带皮肤的优先级覆盖
+  preset_color_schemes/system/candidate_list_layout: linear
+  preset_color_schemes/system_dark/candidate_list_layout: linear
+  preset_color_schemes/ice/candidate_list_layout: linear
+
