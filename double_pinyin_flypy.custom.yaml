@@ -1,5 +1,5 @@
 patch:
   # switches 列表中的第 1 项（索引为 0）通常是 ascii_mode (中英文切换)
   # reset: 0 表示默认中文，reset: 1 表示默认英文
-  "switches/@0/reset": 1
+  "switches/@0/reset": 0
 
